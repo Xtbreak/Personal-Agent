@@ -12,7 +12,7 @@ LangGraph · FastAPI · 原生 JS 前端 · 可二次开发 · MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](Dockerfile)
 [![Version](https://img.shields.io/badge/version-0.8.2-informational.svg)](VERSION)
-[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-46E3B7.svg)](https://render.com/deploy?repo=https://github.com/hubooooooo/Personal-Agent)
+[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-46E3B7.svg)](https://render.com/deploy?repo=https://github.com/Xtbreak/Personal-Agent)
 
 [快速开始](#快速开始) · [它能做什么](#它能做什么) · [工作原理](#工作原理) · [多渠道接入](#多渠道接入) · [安全与隐私](#安全与隐私) · [二次开发](#二次开发)
 
@@ -61,7 +61,7 @@ LangGraph · FastAPI · 原生 JS 前端 · 可二次开发 · MIT
 需要 Python 3.12。
 
 ```bash
-git clone https://github.com/hubooooooo/Personal-Agent.git && cd Personal-Agent
+git clone https://github.com/Xtbreak/Personal-Agent.git && cd Personal-Agent
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -c requirements.lock
 cp .env.example .env
@@ -291,4 +291,4 @@ def weather_lookup(city: str, user_id: str = "") -> dict:
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © [Xtbreak](https://github.com/Xtbreak)
